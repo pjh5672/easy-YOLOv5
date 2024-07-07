@@ -10,6 +10,11 @@ This is a repository for implementation of YOLOv5 for easy customization and und
 You can train your own YOLOv5 model with command like below. As for <DATASET> you can refer sample file in cfg/*.yaml, and make <DATASET NAME>.yaml file following your dataset. Since cfg/*.json file that is required to compute mAP scores is built automatically via dataloader, you do not have to worry about it. 
 
 
+ - **Pretrained Model Weights Download**
+
+	- [YOLOv5-n/s/m/l/x](https://drive.google.com/drive/folders/1cMiAjhkb9tWFxGtxf6WwqgBAxs58HOfX?usp=sharing)
+
+
 ```python
 
 # Training
