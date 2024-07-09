@@ -14,6 +14,10 @@ You can train your own YOLOv5 model with command like below. As for <DATASET> yo
 
 	- [YOLOv5-n/s/m/l/x](https://drive.google.com/drive/folders/1cMiAjhkb9tWFxGtxf6WwqgBAxs58HOfX?usp=sharing)
 
+| Model | Dataset | Train | Valid | Size<br><sup>(pixel) | mAP<br><sup>(@0.5:0.95) | mAP<br><sup>(@0.5) | Params<br><sup>(M) | FLOPs<br><sup>(B) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| YOLOv3 | COCO | train2017 | val2017 | 416 | 33.9 | 54.9 | 61.98 | 66.17 |
+
 
 ```python
 
